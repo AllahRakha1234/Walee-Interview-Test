@@ -1,0 +1,32 @@
+# Exclude specific files
+shape_predictor_68_face_landmarks.dat
+dlib-19.24.99-cp312-cp312-win_amd64.whl
+
+# Exclude virtual environment directory
+myenv/
+
+# Exclude common IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.suo
+*.sln
+*.log
+
+# Exclude Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude system-specific files
+.DS_Store
+Thumbs.db
+
+# Exclude files for specific tools
+*.db
+*.sqlite3
+
+# Exclude other large or unwanted files
+*.gif
+*.jpg
+*.png
